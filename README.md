@@ -37,18 +37,14 @@ node --test
 
 See `docs/RELEASE-NOTES.md` for coverage, corrections, known unavailable values and review routes. Automated checks have passed. The newly added sections are ready for our browser review; full standards certification is not claimed.
 
-## GitHub / ShopDocker preparation
+## Hosting
 
-This folder is the intended repository root. No remote repository or deployment has been created. When ready, push this folder to GitHub. A future GitHub Pages workflow can publish `dist/`.
+Source: https://github.com/jeffavery/shop-reference
 
-On ShopDocker, clone the repository and run:
+ShopDocker runs this site from `/opt/docker/shop-reference` on the `proxy` network. Start or update it with `docker compose -f compose.shopdocker.yaml up -d --build`. Caddy Manager routes `machining.jeffavery.com` to `http://shop-reference:80`; the hostname requires DNS pointing to ShopDocker.
 
-```sh
-docker compose up -d --build
-```
-
-The included sample binds host loopback port 8088. A host reverse proxy can target `http://127.0.0.1:8088`. If the proxy runs in a container, adapt to its existing Docker network and target service port 80. Confirm host ports, network, hostname and TLS before deployment. Container startup has not been tested on ShopDocker. Pin the nginx image to a reviewed digest when deploying.
+For a demo on jeffavery.com, upload the contents of the static ZIP into `/shop-reference/`. See [hosting instructions](docs/HOSTING.md).
 
 ## Review status
 
-All 11 pages are ready for local review. Source omissions and questionable values are explicitly labelled rather than guessed. Next: review each page together, then configure GitHub and ShopDocker.
+All 11 tools and the revised gear illustrations have been reviewed and approved by the owner. Automated checks pass. Source omissions and questionable values remain explicitly labelled; see [source issues](docs/SOURCE-ISSUES.md).
