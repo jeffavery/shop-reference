@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Keys & Keyways · Shop Reference</title>
+  <meta name="description" content="Local machining and fabrication reference. Inch key sizes by shaft diameter, with square and rectangular key dimensions.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%23182330'/%3E%3Cpath d='M7 22V10h18v12M11 22v-8h10v8' fill='none' stroke='%23ffb347' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+  <script type="module" src="./depths.js"></script>
+  <script type="module" src="./reference.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to calculator</a>
+<header><a class="brand" href="./"><span class="mark">SR</span> SHOP REFERENCE</a><span class="edition">MACHINING / FABRICATION</span></header>
+<div class="shell">
+  <aside aria-label="Reference sections"><p class="eyebrow">WORKSHOP INDEX</p><nav>
+    <a href="#keys" data-section="keys" aria-current="page"><span>01</span> Keys & Keyways</a>
+    <a href="#threads" data-section="threads"><span>02</span> Threads & Tap Drills</a>
+    <a href="#counterbores" data-section="counterbores"><span>03</span> Counterbores</a>
+    <a href="#strength" data-section="strength"><span>04</span> Bolt/Material Strength</a>
+    <a href="#gears" data-section="gears"><span>05</span> Gears</a>
+  </nav><div class="aside-note">Local reference<br><strong>Edition 01</strong><p>11 tools & references.<br>Results update as you work.</p></div></aside>
+  <main id="main">
+    <nav class="key-tools" aria-label="Keys and keyways tools"><a href="#keys" data-key-tool="keys">Key sizing</a><a href="#depths" data-key-tool="depths">Shaft & hub depths</a></nav>
+    <section id="depths-page" hidden>
+      <div class="page-heading"><div><p class="eyebrow">01 / KEYS & KEYWAYS</p><h1>Shaft & hub depths.</h1><p>Depth-control dimensions for a keyed shaft and its mating hub.</p></div><span class="standard">ANSI B17.1–1967<br><small>Tabulated inch dimensions</small></span></div>
+      <div class="workspace">
+        <form class="inputs" id="depth-form" novalidate><h2>Shaft & key</h2>
+          <label for="depth-diameter">Nominal shaft diameter <span>in</span></label><select id="depth-diameter" aria-describedby="depth-help"><option>Loading…</option></select><p id="depth-help" class="hint">Published nominal sizes from ½ to 15 in.</p>
+          <label for="depth-shape">Key cross-section</label><select id="depth-shape"><option value="square">Square</option><option value="rectangular">Rectangular</option></select>
+          <label for="depth-type">Key type</label><select id="depth-type"><option value="parallel">Parallel</option><option value="taper">Taper</option></select>
+          <p id="depth-error" class="error" role="alert" hidden></p>
+          <p class="hint preference">S and T are measured across the shaft or bore. They are not slot depths measured from the nearest surface.</p>
+        </form>
+        <div class="result" aria-live="polite" aria-atomic="true"><p class="eyebrow">DEPTH CONTROL / INCHES</p><h2 id="depth-key">Loading dimensions…</h2><p class="band" id="depth-summary"></p>
+          <dl class="depth-values"><div><dt>Shaft · S</dt><dd id="depth-s">—</dd></div><div><dt>Hub · T</dt><dd id="depth-t">—</dd></div></dl>
+          <p class="result-note" id="depth-type-note"></p>
+        </div>
+      </div>
+      <section class="depth-diagrams" aria-label="Depth measurement diagrams">
+        <div><h2>Shaft measurement · S</h2><svg viewBox="0 0 360 270" role="img" aria-labelledby="shaft-title"><title id="shaft-title">S runs from the shaft keyseat floor to the opposite outside surface</title><path d="M145 57 A80 80 0 1 0 195 57 L195 100 H145 Z" fill="#dbe4ed" stroke="#203145" stroke-width="2"/><path d="M170 40V235M75 135H260" stroke="#8395a6" stroke-dasharray="5 5"/><path d="M145 100H295M170 213H295M280 100V213M274 106l12-12M274 219l12-12" fill="none" stroke="#a75800" stroke-width="2"/><text x="295" y="162" fill="#a75800" font-size="22">S</text></svg><p>Keyseat floor to the opposite outside surface of the shaft.</p></div>
+        <div><h2>Hub measurement · T</h2><svg viewBox="0 0 360 270" role="img" aria-labelledby="hub-title"><title id="hub-title">T runs from the hub keyway floor to the opposite bore surface</title><rect x="55" y="20" width="230" height="230" fill="#dbe4ed" stroke="#203145" stroke-width="2"/><path d="M145 59 A80 80 0 1 0 195 59 V30 H145 Z" fill="white" stroke="#203145" stroke-width="2"/><path d="M170 20V240M65 135H270" stroke="#8395a6" stroke-dasharray="5 5"/><path d="M195 30H315M170 215H315M300 30V215M294 36l12-12M294 221l12-12" fill="none" stroke="#a75800" stroke-width="2"/><text x="316" y="132" fill="#a75800" font-size="22">T</text></svg><p>Keyway floor to the opposite bore surface. For a taper key, measure at the deeper end.</p></div>
+      </section>
+      <section class="notes"><h2>Using these dimensions</h2><p>Diagrams are schematic. Values are tabulated nominal depth-control dimensions, not a complete tolerance or fit specification. Use the drawing’s tolerances and key fit requirements when machining.</p><p>Data: <a href="https://amesweb.info/Keys/Shaft-Keyseat-Hub-Keyway-Depth-Values.aspx" target="_blank" rel="noreferrer">AmesWeb depth-control reference</a>, citing ANSI B17.1–1967. Retrieved September 13, 2026.</p></section>
+    </section>
+    <section id="keys-page">
+      <div class="page-heading"><div><p class="eyebrow">01 / KEYS & KEYWAYS</p><h1>Find the right key size.</h1><p>Match a shaft diameter to a standard key cross-section.</p></div><span class="standard">ANSI B17.1–1967<br><small>Inch series · R1998 reference</small></span></div>
+      <div class="workspace">
+        <form class="inputs" id="key-form" novalidate><h2>Shaft & key</h2>
+          <label for="diameter">Shaft diameter <span>in</span></label><input id="diameter" name="diameter" value="1" type="text" inputmode="decimal" aria-describedby="diameter-help error" autocomplete="off"><p id="diameter-help" class="hint">Decimal or fraction: 1.25, 1/2, 1-1/4.<br>Greater than 5/16, up to 30 in.</p>
+          <label for="shape">Key cross-section</label><select id="shape" name="shape"><option value="square">Square</option><option value="rectangular">Rectangular</option></select>
+          <p id="error" role="alert" class="error" hidden></p>
+          <p class="hint preference">Square keys are preferred through 6½ in shafts; rectangular keys above 6½ in.</p>
+        </form>
+        <div class="result" aria-live="polite" aria-atomic="true"><p class="eyebrow">KEY CROSS-SECTION / INCHES</p><h2 id="size">Loading dimensions…</h2><p id="band" class="band"></p>
+          <div class="result-grid"><dl><div><dt>Width · W</dt><dd id="width">—</dd></div><div><dt>Height · H</dt><dd id="height">—</dd></div><div><dt>Nominal half-height · H/2</dt><dd id="half">—</dd></div></dl>
+          <figure><svg viewBox="0 0 280 220" role="img" aria-labelledby="diagram-title diagram-description"><title id="diagram-title">Key cross-section dimensions</title><desc id="diagram-description">Width W is horizontal and height H is vertical. Schematic, not to scale.</desc><defs><pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M0 0V9" stroke="#8ba0b5" stroke-width="1"/></pattern></defs><rect id="key-outline" x="60" y="60" width="140" height="110" fill="url(#hatch)" stroke="#ffb347" stroke-width="2"/><g fill="none" stroke="#a7b9c9"><path d="M60 48V23M200 48V23M60 32H200M55 37l10-10M195 37l10-10"/><path id="height-line" d="M212 60H242M212 170H242M233 60V170M228 65l10-10M228 175l10-10"/></g><g fill="#f3f6fa" font-family="monospace" font-size="18"><text x="125" y="23">W</text><text x="247" y="120">H</text></g></svg><figcaption>Cross-section · schematic</figcaption></figure></div>
+          <p class="result-note">H/2 is a nominal reference. It is <strong>not the radial machining depth</strong>; shaft and hub depth-control dimensions are a separate calculation.</p>
+        </div>
+      </div>
+      <section class="chart"><div class="section-heading"><h2>Key size schedule</h2><span>All dimensions in inches</span></div><div class="table-wrap" role="region" aria-label="Key size schedule" tabindex="0"><table><caption>Shaft ranges exclude the lower limit and include the upper limit.</caption><thead><tr><th scope="col">Shaft diameter<br><small>Over → through</small></th><th scope="col">Width W</th><th scope="col">Square H</th><th scope="col">Rectangular H</th></tr></thead><tbody id="key-rows"></tbody></table></div></section>
+      <section class="notes"><h2>Reference notes</h2><p>Size selection does not establish key length, fit tolerances, or torque capacity. Those depend on the joint design and material. A dash means the source does not list that cross-section for the range.</p><p>Dimensions transcribed from the <a href="https://amesweb.info/Keys/Key-Size-Shaft-Diameter.aspx" target="_blank" rel="noreferrer">AmesWeb key-size reference</a>, retrieved September 13, 2026. The page cites ANSI B17.1–1967 and Machinery’s Handbook. Original interface and drawing.</p></section>
+    </section>
+    <section id="planned-page" hidden><p role="status">Loading local reference…</p></section>
+    <footer>SHOP REFERENCE <span>Local edition · 2026</span></footer>
+  </main>
+</div>
+<noscript>This calculator requires JavaScript enabled in your browser.</noscript>
+</body></html>

@@ -1,0 +1,182 @@
+{
+  "retrieved": "2026-09-13",
+  "status": "Research staging only; verify before UI use",
+  "controls": [],
+  "tables": [
+    [
+      "",
+      "SAE Grade 1",
+      "Low or medium carbon",
+      "1/4 to 3/2",
+      "33",
+      "60",
+      "36"
+    ],
+    [
+      "ASTM A307",
+      "Low carbon",
+      "1/4 to 3/2",
+      "33",
+      "60",
+      "36"
+    ],
+    [
+      "SAE Grade 2",
+      "Low or medium carbon",
+      "1/4 to 3/4",
+      "55",
+      "74",
+      "57"
+    ],
+    [
+      "7/8 to 3/2",
+      "33",
+      "60",
+      "36"
+    ],
+    [
+      "SAE Grade 4",
+      "Medium carbon, cold drawn",
+      "1/4 to 3/2",
+      "65",
+      "115",
+      "100"
+    ],
+    [
+      "",
+      "SAE Grade 5",
+      "Medium carbon, quench and temper",
+      "1/4 to 1",
+      "85",
+      "120",
+      "92"
+    ],
+    [
+      "ASTM A449",
+      "9/8 to 3/2",
+      "74",
+      "105",
+      "81"
+    ],
+    [
+      "ASTM A449",
+      "7/4 to 3",
+      "55",
+      "90",
+      "58"
+    ],
+    [
+      "",
+      "SAE Grade 5.2",
+      "Low-carbon martensite, quench and temper",
+      "1/4 to 1",
+      "85",
+      "120",
+      "92"
+    ],
+    [
+      "",
+      "ASTM A325, Type 1",
+      "Medium carbon, quench and temper",
+      "1/2 to 1",
+      "85",
+      "120",
+      "92"
+    ],
+    [
+      "9/8 to 3/2",
+      "74",
+      "105",
+      "81"
+    ],
+    [
+      "",
+      "ASTM A325, Type 2",
+      "Low-carbon martensite, quench and temper",
+      "1/2 to 1",
+      "85",
+      "120",
+      "92"
+    ],
+    [
+      "9/8 to 3/2",
+      "74",
+      "105",
+      "81"
+    ],
+    [
+      "",
+      "ASTM A325, Type 3",
+      "Weathering steel, quench and temper",
+      "1/2 to 1",
+      "85",
+      "120",
+      "92"
+    ],
+    [
+      "9/8 to 3/2",
+      "74",
+      "105",
+      "81"
+    ],
+    [
+      "",
+      "ASTM A354, Grade BC",
+      "Weathering steel, quench and temper",
+      "1/4 to 5/2",
+      "105",
+      "125",
+      "109"
+    ],
+    [
+      "11/4 to 4",
+      "95",
+      "115",
+      ""
+    ],
+    [
+      "",
+      "SAE Grade 7",
+      "Medium-carbon alloy, quench and temper",
+      "1/4 to 3/2",
+      "105",
+      "133",
+      "115"
+    ],
+    [
+      "",
+      "SAE Grade 8",
+      "Medium-carbon alloy, quench and temper",
+      "1/4 to 3/2",
+      "120",
+      "150",
+      "130"
+    ],
+    [
+      "ASTM A354, Grade BD",
+      "Alloy steel, quench and temper",
+      "1/4 to 3/2",
+      "120",
+      "150",
+      "130"
+    ],
+    [
+      "",
+      "SAE Grade 8.2",
+      "Low-carbon martensite, quench and temper",
+      "1/4 to 1",
+      "120",
+      "150",
+      "130"
+    ],
+    [
+      "",
+      "ASTM A490, Type 1",
+      "Alloy steel, quench and temper",
+      "1/2 to 3/2",
+      "120",
+      "150",
+      "130"
+    ]
+  ]
+}

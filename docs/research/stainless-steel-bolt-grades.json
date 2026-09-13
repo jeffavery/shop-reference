@@ -1,0 +1,25 @@
+{
+  "retrieved": "2026-09-13",
+  "status": "Research staging only; verify before UI use",
+  "controls": [
+    {
+      "id": "ContentPlaceHolder1_ListBoxSteelGrade",
+      "options": [
+        "A1,A2,A3,A4,A5",
+        "C1",
+        "C3",
+        "C4",
+        "F1"
+      ]
+    },
+    {
+      "id": "ContentPlaceHolder1_DropDownListPropertyClass",
+      "options": [
+        "50",
+        "70",
+        "80"
+      ]
+    }
+  ],
+  "tables": []
+}

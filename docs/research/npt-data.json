@@ -1,0 +1,117 @@
+{
+  "source": "https://amesweb.info/Screws/npt-thread-chart-tap-drill-size-calculator.aspx",
+  "retrieved": "2026-09-13",
+  "status": "Unverified staging data",
+  "rows": [
+    {
+      "size": "1/16",
+      "od": 0.3125,
+      "nptReamerBit": "A",
+      "nptReamerDec": 0.234,
+      "nptNoReamerBit": "C",
+      "nptNoReamerDec": 0.242,
+      "npscBit": "1/4",
+      "npscDec": 0.25
+    },
+    {
+      "size": "1/8",
+      "od": 0.405,
+      "nptReamerBit": "21/64",
+      "nptReamerDec": 0.328,
+      "nptNoReamerBit": "Q",
+      "nptNoReamerDec": 0.332,
+      "npscBit": "11/32",
+      "npscDec": 0.344
+    },
+    {
+      "size": "1/4",
+      "od": 0.54,
+      "nptReamerBit": "27/64",
+      "nptReamerDec": 0.422,
+      "nptNoReamerBit": "7/16",
+      "nptNoReamerDec": 0.438,
+      "npscBit": "7/16",
+      "npscDec": 0.438
+    },
+    {
+      "size": "3/8",
+      "od": 0.675,
+      "nptReamerBit": "9/16",
+      "nptReamerDec": 0.562,
+      "nptNoReamerBit": "9/16",
+      "nptNoReamerDec": 0.562,
+      "npscBit": "37/64",
+      "npscDec": 0.578
+    },
+    {
+      "size": "1/2",
+      "od": 0.84,
+      "nptReamerBit": "11/16",
+      "nptReamerDec": 0.688,
+      "nptNoReamerBit": "45/64",
+      "nptNoReamerDec": 0.703,
+      "npscBit": "23/32",
+      "npscDec": 0.719
+    },
+    {
+      "size": "3/4",
+      "od": 1.05,
+      "nptReamerBit": "57/64",
+      "nptReamerDec": 0.891,
+      "nptNoReamerBit": "29/32",
+      "nptNoReamerDec": 0.906,
+      "npscBit": "59/64",
+      "npscDec": 0.922
+    },
+    {
+      "size": "1",
+      "od": 1.315,
+      "nptReamerBit": "1 1/8",
+      "nptReamerDec": 1.125,
+      "nptNoReamerBit": "1 9/64",
+      "nptNoReamerDec": 1.141,
+      "npscBit": "1 5/32",
+      "npscDec": 1.156
+    },
+    {
+      "size": "1 1/4",
+      "od": 1.66,
+      "nptReamerBit": "1 15/32",
+      "nptReamerDec": 1.469,
+      "nptNoReamerBit": "1 31/64",
+      "nptNoReamerDec": 1.484,
+      "npscBit": "1 1/2",
+      "npscDec": 1.5
+    },
+    {
+      "size": "1 1/2",
+      "od": 1.9,
+      "nptReamerBit": "1 45/64",
+      "nptReamerDec": 1.703,
+      "nptNoReamerBit": "1 23/32",
+      "nptNoReamerDec": 1.719,
+      "npscBit": "1 3/4",
+      "npscDec": 1.75
+    },
+    {
+      "size": "2",
+      "od": 2.375,
+      "nptReamerBit": "2 11/64",
+      "nptReamerDec": 2.172,
+      "nptNoReamerBit": "2 3/16",
+      "nptNoReamerDec": 2.188,
+      "npscBit": "2 7/32",
+      "npscDec": 2.219
+    },
+    {
+      "size": "2 1/2",
+      "od": 2.875,
+      "nptReamerBit": "2 37/64",
+      "nptReamerDec": 2.578,
+      "nptNoReamerBit": "2 39/64",
+      "nptNoReamerDec": 2.609,
+      "npscBit": "2 21/32",
+      "npscDec": 2.656
+    }
+  ]
+}

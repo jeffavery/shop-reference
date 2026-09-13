@@ -1,0 +1,48 @@
+{
+  "retrieved": "2026-09-13",
+  "status": "Research staging only; verify before UI use",
+  "controls": [
+    {
+      "id": "ContentPlaceHolder1_ListBoxMetricThread",
+      "options": [
+        "M3 x 0.5",
+        "M4 x 0.7",
+        "M5 x 0.8",
+        "M6 x 1",
+        "M8 x 1",
+        "M8 x 1.25",
+        "M10 x 1",
+        "M10 x 1.25",
+        "M10 x 1.5",
+        "M12 x 1.25",
+        "M12 x 1.5",
+        "M12 x 1.75",
+        "M16 x 1.5",
+        "M16 x 2",
+        "M20 x 1.5",
+        "M20 x 2.5",
+        "M24 x 2",
+        "M24 x 3",
+        "M30 x 2",
+        "M30 x 3.5",
+        "M36 x 3",
+        "M36 x 4"
+      ]
+    },
+    {
+      "id": "ContentPlaceHolder1_DropDownListPropertyClass",
+      "options": [
+        "4.6",
+        "4.8",
+        "5.6",
+        "5.8",
+        "6.8",
+        "8.8",
+        "9.8",
+        "10.9",
+        "12.9"
+      ]
+    }
+  ],
+  "tables": []
+}

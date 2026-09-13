@@ -1,0 +1,27 @@
+{
+  "retrieved": "2026-09-13",
+  "status": "Research staging only; verify before UI use",
+  "controls": [
+    {
+      "id": "pipeSize",
+      "options": [
+        "Select size"
+      ]
+    },
+    {
+      "id": "threadType",
+      "options": [
+        "Taper Pipe Thread (NPT)",
+        "Straight Pipe Thread (NPSC)"
+      ]
+    },
+    {
+      "id": "useReamer",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    }
+  ],
+  "tables": []
+}

@@ -1,0 +1,37 @@
+{
+  "retrieved": "2026-09-13",
+  "status": "Research staging only; verify before UI use",
+  "controls": [
+    {
+      "id": "ContentPlaceHolder1_DropDownListScrewSize",
+      "options": [
+        "M1.6",
+        "M2",
+        "M2.5",
+        "M3",
+        "M4",
+        "M5",
+        "M6",
+        "M8",
+        "M10",
+        "M12",
+        "M14",
+        "M16",
+        "M20",
+        "M24",
+        "M30",
+        "M36",
+        "M42",
+        "M48"
+      ]
+    },
+    {
+      "id": "ContentPlaceHolder1_DropDownListFitClass",
+      "options": [
+        "Normal",
+        "Close"
+      ]
+    }
+  ],
+  "tables": []
+}

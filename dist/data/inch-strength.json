@@ -1,0 +1,261 @@
+{
+  "source": "https://amesweb.info/Screws/bolt-grades-strength-markings.aspx",
+  "retrieved": "2026-09-13",
+  "unit": "ksi",
+  "verificationSources": [
+    "https://boltdepot.com/fastener-information/Materials-and-Grades/Bolt-Grade-Chart",
+    "https://www.portlandbolt.com/technical/specifications/astm-a354/"
+  ],
+  "rows": [
+    {
+      "grade": "SAE Grade 1",
+      "material": "Carbon steel",
+      "range": "1/4–1-1/2",
+      "proof": 33,
+      "tensile": 60,
+      "yield": 36,
+      "mark": "none",
+      "note": null
+    },
+    {
+      "grade": "ASTM A307",
+      "material": "Low-carbon steel",
+      "range": "1/4–1-1/2",
+      "proof": null,
+      "tensile": 60,
+      "yield": null,
+      "mark": "307A",
+      "note": "Proof and yield are not specified here; source values withheld following Bolt Depot cross-check. Grade A marking shown."
+    },
+    {
+      "grade": "SAE Grade 2",
+      "material": "Carbon steel",
+      "range": "1/4–3/4",
+      "proof": 55,
+      "tensile": 74,
+      "yield": 57,
+      "mark": "none",
+      "note": null
+    },
+    {
+      "grade": "SAE Grade 2",
+      "material": "Carbon steel",
+      "range": "over 3/4–1-1/2",
+      "proof": 33,
+      "tensile": 60,
+      "yield": 36,
+      "mark": "none",
+      "note": null
+    },
+    {
+      "grade": "SAE Grade 4",
+      "material": "Cold-drawn medium-carbon steel",
+      "range": "1/4–1-1/2",
+      "proof": 65,
+      "tensile": 115,
+      "yield": 100,
+      "mark": "none",
+      "note": "Historical reference grade."
+    },
+    {
+      "grade": "SAE Grade 5",
+      "material": "Heat-treated medium-carbon steel",
+      "range": "1/4–1",
+      "proof": 85,
+      "tensile": 120,
+      "yield": 92,
+      "mark": "radial3",
+      "note": null
+    },
+    {
+      "grade": "SAE Grade 5",
+      "material": "Heat-treated medium-carbon steel",
+      "range": "over 1–1-1/2",
+      "proof": 74,
+      "tensile": 105,
+      "yield": 81,
+      "mark": "radial3",
+      "note": null
+    },
+    {
+      "grade": "ASTM A449",
+      "material": "Heat-treated steel",
+      "range": "1/4–1",
+      "proof": 85,
+      "tensile": 120,
+      "yield": 92,
+      "mark": "radial3",
+      "note": null
+    },
+    {
+      "grade": "ASTM A449",
+      "material": "Heat-treated steel",
+      "range": "1-1/8–1-1/2",
+      "proof": 74,
+      "tensile": 105,
+      "yield": 81,
+      "mark": "radial3",
+      "note": null
+    },
+    {
+      "grade": "ASTM A449",
+      "material": "Heat-treated steel",
+      "range": "1-3/4–3",
+      "proof": 55,
+      "tensile": 90,
+      "yield": 58,
+      "mark": "radial3",
+      "note": null
+    },
+    {
+      "grade": "SAE Grade 5.2",
+      "material": "Heat-treated low-carbon martensitic steel",
+      "range": "1/4–1",
+      "proof": 85,
+      "tensile": 120,
+      "yield": 92,
+      "mark": "cluster3",
+      "note": null
+    },
+    {
+      "grade": "ASTM A325 Type 1",
+      "material": "Heat-treated steel",
+      "range": "1/2–1",
+      "proof": 85,
+      "tensile": 120,
+      "yield": 92,
+      "mark": "A325-1",
+      "note": "Historical A325 table; current F3125 requirements can differ. Type 2 is obsolete."
+    },
+    {
+      "grade": "ASTM A325 Type 1",
+      "material": "Heat-treated steel",
+      "range": "1-1/8–1-1/2",
+      "proof": 74,
+      "tensile": 105,
+      "yield": 81,
+      "mark": "A325-1",
+      "note": "Historical A325 table; current F3125 requirements can differ. Type 2 is obsolete."
+    },
+    {
+      "grade": "ASTM A325 Type 2",
+      "material": "Heat-treated steel",
+      "range": "1/2–1",
+      "proof": 85,
+      "tensile": 120,
+      "yield": 92,
+      "mark": "A325-2",
+      "note": "Historical A325 table; current F3125 requirements can differ. Type 2 is obsolete."
+    },
+    {
+      "grade": "ASTM A325 Type 2",
+      "material": "Heat-treated steel",
+      "range": "1-1/8–1-1/2",
+      "proof": 74,
+      "tensile": 105,
+      "yield": 81,
+      "mark": "A325-2",
+      "note": "Historical A325 table; current F3125 requirements can differ. Type 2 is obsolete."
+    },
+    {
+      "grade": "ASTM A325 Type 3",
+      "material": "Weathering steel",
+      "range": "1/2–1",
+      "proof": 85,
+      "tensile": 120,
+      "yield": 92,
+      "mark": "A325-3",
+      "note": "Historical A325 table; current F3125 requirements can differ. Type 2 is obsolete."
+    },
+    {
+      "grade": "ASTM A325 Type 3",
+      "material": "Weathering steel",
+      "range": "1-1/8–1-1/2",
+      "proof": 74,
+      "tensile": 105,
+      "yield": 81,
+      "mark": "A325-3",
+      "note": "Historical A325 table; current F3125 requirements can differ. Type 2 is obsolete."
+    },
+    {
+      "grade": "ASTM A354 BC",
+      "material": "Heat-treated alloy steel",
+      "range": "1/4–2-1/2",
+      "proof": 105,
+      "tensile": 125,
+      "yield": 109,
+      "mark": "BC",
+      "note": "Historical source values; original weathering-steel description corrected to alloy steel."
+    },
+    {
+      "grade": "ASTM A354 BC",
+      "material": "Heat-treated alloy steel",
+      "range": "2-3/4–4",
+      "proof": 95,
+      "tensile": 115,
+      "yield": null,
+      "mark": "BC",
+      "note": "Yield value not supplied in the reference table."
+    },
+    {
+      "grade": "SAE Grade 7",
+      "material": "Heat-treated carbon-alloy steel",
+      "range": "1/4–1-1/2",
+      "proof": 105,
+      "tensile": 133,
+      "yield": 115,
+      "mark": "radial5",
+      "note": "Historical reference grade."
+    },
+    {
+      "grade": "SAE Grade 8",
+      "material": "Heat-treated carbon-alloy steel",
+      "range": "1/4–1-1/2",
+      "proof": 120,
+      "tensile": 150,
+      "yield": 130,
+      "mark": "radial6",
+      "note": null
+    },
+    {
+      "grade": "ASTM A354 BD",
+      "material": "Heat-treated alloy steel",
+      "range": "1/4–1-1/2",
+      "proof": 120,
+      "tensile": 150,
+      "yield": 130,
+      "mark": "radial6",
+      "note": null
+    },
+    {
+      "grade": "SAE Grade 8.2",
+      "material": "Heat-treated low-carbon martensitic steel",
+      "range": "1/4–1",
+      "proof": 120,
+      "tensile": 150,
+      "yield": 130,
+      "mark": "cluster6",
+      "note": null
+    },
+    {
+      "grade": "ASTM A490 Type 1",
+      "material": "Heat-treated alloy steel",
+      "range": "1/2–1-1/2",
+      "proof": 120,
+      "tensile": 150,
+      "yield": 130,
+      "mark": "A490-1",
+      "note": "Historical designation; consult current F3125 for procurement."
+    },
+    {
+      "grade": "ASTM A490 Type 3",
+      "material": "Weathering alloy steel",
+      "range": "1/2–1-1/2",
+      "proof": 120,
+      "tensile": 150,
+      "yield": 130,
+      "mark": "A490-3",
+      "note": "Historical designation; consult current F3125 for procurement."
+    }
+  ]
+}

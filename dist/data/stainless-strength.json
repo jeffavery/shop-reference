@@ -1,0 +1,84 @@
+{
+  "source": "https://amesweb.info/Screws/stainless-steel-bolt-grades.aspx",
+  "retrieved": "2026-09-13",
+  "standard": "ISO 3506-1:2009",
+  "rows": [
+    {
+      "grade": "A1,A2,A3,A4,A5",
+      "property": "50",
+      "group": "Austenitic",
+      "tensile": 500,
+      "yield": 210
+    },
+    {
+      "grade": "A1,A2,A3,A4,A5",
+      "property": "70",
+      "group": "Austenitic",
+      "tensile": 700,
+      "yield": 450
+    },
+    {
+      "grade": "A1,A2,A3,A4,A5",
+      "property": "80",
+      "group": "Austenitic",
+      "tensile": 800,
+      "yield": 600
+    },
+    {
+      "grade": "C1",
+      "property": "50",
+      "group": "Martensitic",
+      "tensile": 500,
+      "yield": 250
+    },
+    {
+      "grade": "C1",
+      "property": "70",
+      "group": "Martensitic",
+      "tensile": 700,
+      "yield": 410
+    },
+    {
+      "grade": "C1",
+      "property": "110",
+      "group": "Martensitic",
+      "tensile": 1100,
+      "yield": 820
+    },
+    {
+      "grade": "C3",
+      "property": "80",
+      "group": "Martensitic",
+      "tensile": 800,
+      "yield": 640
+    },
+    {
+      "grade": "C4",
+      "property": "50",
+      "group": "Martensitic",
+      "tensile": 500,
+      "yield": 250
+    },
+    {
+      "grade": "C4",
+      "property": "70",
+      "group": "Martensitic",
+      "tensile": 700,
+      "yield": 410
+    },
+    {
+      "grade": "F1",
+      "property": "45",
+      "group": "Ferritic",
+      "tensile": 450,
+      "yield": 250
+    },
+    {
+      "grade": "F1",
+      "property": "60",
+      "group": "Ferritic",
+      "tensile": 600,
+      "yield": 410
+    }
+  ]
+}
